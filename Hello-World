@@ -1,0 +1,89 @@
+#Hello World{main.py}
+print('Hello World')
+#Print 0,100
+A = 5
+for i in range(20):
+  print(A)
+  A = A + 5
+#Fibonacci
+B = 0
+C = 1
+print(B)
+print(C)
+for i in range(30):
+  D = B + C
+  print(D)
+  B = C
+  C = D
+#Odd Integers
+print('Starting Odd numbers')
+E = 1
+F = 3
+print(E)
+print(F)
+for i in range(6):
+  G = E + F
+  print(G)
+  E = F
+  F = G
+#Odd Integers2
+H = 1
+for i in range(11):
+  print(H)
+  H = H + 2
+#Negative Integers
+I = 0
+for i in range(9):
+  print(I)
+  I = I -2
+#Mix
+J = -10
+for i in range(11):
+  print(J)
+  J = J + 2
+#Dubble Up
+K = 1
+for i in range(12):
+  print(K)
+  K = K * 2 + 1
+#Number * 3
+L = 2
+for i in range(7):
+  print(L)
+  L = L * 3 + 1
+#Sum adding up
+M = 1
+print(M)
+for i in range(9):
+  print(M)
+  M = M * 2
+#Loops in Loops
+N = 1
+for i in range(2):
+  for i in range(7):
+    print(N)
+    N = N + 1
+  N = N + 4
+#Function's
+def neg_int():
+  I = 0
+  for i in range(9):
+    print(I)
+    I = I -2
+neg_int()
+size = 2
+def fibonacci(length):
+  B = 0
+  C = 1
+  print(B)
+  print(C)
+  for i in range(length -2):
+    D = B + C
+    print(D)
+    B = C
+    C = D
+fibonacci(12)
+
+def HelloWorld():
+  print('Hello World')
+HelloWorld()
